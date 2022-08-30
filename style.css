@@ -1,0 +1,49 @@
+body{
+  height: 100vh;
+  background: url("./pexels-mo-eid-11188249.jpg") ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 16px;
+  border-radius: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border:  1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+h1{
+  text-align: center;
+}
+#increment{
+  width: 250px;
+  height: 50px;
+  color: #fff;
+  font-weight: 600;
+  background-color: #a52a2a;
+  border: 0;
+  border-radius: 10px;
+  margin-bottom:10px;
+  cursor: pointer;
+}
+#saved-btn{
+  width: 250px;
+  height: 50px;
+  color: #fff;
+  font-weight: 600;
+  background-color: #9acd32;
+  border: 0;
+  border-radius: 10px;
+  margin-bottom:10px;
+  cursor: pointer;
+}
